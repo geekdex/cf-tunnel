@@ -1,0 +1,18 @@
+# 忽略个人配置与私密文件
+.env
+.env.*
+.wrangler/
+*.log
+deploy.js
+cf-dns-hook.js
+
+# 忽略本地导出的订阅与节点文件
+nodes.txt
+clash-profile.yaml
+edgetunnel-clash.yaml
+running-configs.json
+
+# 系统与编辑器缓存
+.DS_Store
+Thumbs.db
+node_modules/

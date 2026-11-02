@@ -1,0 +1,15 @@
+name = "my-proxy-portal"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "./site"
+
+# 可选：如果需要使用 KV 存储配置，在此处绑定你的 KV ID
+# [[kv_namespaces]]
+# binding = "KV"
+# id = "your_kv_namespace_id_here"
+
+[vars]
+# 建议在 Cloudflare Pages 后台 Settings -> Environment variables 中设置
+# ADMIN = "你的管理员密码" (设置为 Encrypted/Secret)
+# UUID = "你的UUIDv4"
+URL = "1101"
+OFF_LOG = "1"
